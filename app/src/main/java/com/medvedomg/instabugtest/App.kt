@@ -31,7 +31,6 @@ class App: Application() {
          * SDK show welcome dialog by default,
          * [Instabug.showWelcomeMessage] will disable auto showing welcome dialog
          */
-        Instabug.showWelcomeMessage(WelcomeMessage.State.DISABLED)
         /**
          * [Surveys.setThresholdForReshowingSurveyAfterDismiss] will trigger showing survey,
          * if user dismiss it,
